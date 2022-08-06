@@ -1,0 +1,47 @@
+---
+title: Harita
+permalink: /harita/
+---
+<!-- MODIFIED FROM https://github.com/jekyll/minima/ -->
+
+<!DOCTYPE html>
+
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+{%- include head.html -%}
+
+<body>
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post">
+
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title | escape }}</h1>
+        </header>
+
+        <div class="post-content">
+          <div id="map"></div>
+        </div>
+
+      </article>
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+  <script src="/assets/js/incident_map.js"></script>
+</body>
+
+</html>

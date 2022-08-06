@@ -2,7 +2,10 @@
 layout: post
 title: "Urla Sokaklarında"
 date: 2022-06-08 03:33:00 +0300
-categories: jekyll update
+categories: urla
+x: 38.32241
+y: 26.76227
+location: Urla
 ---
 
 Covid’in henüz yeni başladığı dönemlerde üniversite ikinci sınıfta okuyordum, derslerin uzaktan olmasına rağmen ucuza kiraladığımız evin sözleşmesi devam ettiği için memlekete gitmek yerine dönemi Urla’daki evimde bitirmeye karar vermiştim. Dönemin sonlarına yaklaştıkça ve hava ısındıkça kendimi giderek evde kısılı hissetmeye başladım. Akşamları hava biraz serinlediktedikten ve güneş binaların arkasına çekildekten sonra, kendimi Urla sokaklarında yürüyüş yapmaya başlarken bulmamın sebebi buydu sanırım.
