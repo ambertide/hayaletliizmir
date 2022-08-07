@@ -1,0 +1,89 @@
+
+.inspirations-section {
+  // Awesome trick from https://www.youtube.com/shorts/81pnuZFarRw
+  background-color: #e7e7e7;
+  box-shadow: 0 0 0 100vmax #e7e7e7;
+  clip-path: inset(0 -100vmax);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: #1f1f1f;
+}
+
+.inspirations-container {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.inspirations {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0.5rem;
+  column-gap: 0.25rem;
+  width: 90%;
+}
+
+@keyframes onhover {
+  0% {
+      transform: scale(1.0) !important;
+  }
+  100% {
+      transform: scale(1.2) !important;
+  }
+}
+
+.inspiration {
+  &#GhostsInTheBurbs {
+    background-image: url("/assets/images/GhostsInTheBurbs.jpg");
+    background-position-y: 30%;
+    text-align: left;
+  }
+  &#Archive81 {
+    background-image: url("/assets/images/Archive81.png");
+    background-position-y: 65%;
+    text-align: right;
+  }
+  &#MagnusArchives {
+    background-image: url("/assets/images/MagnusArchives.jpg");
+    background-position-y: 25%;
+    text-align: left;
+  }
+  &#AmnesiaRebirth {
+    background-image: url("/assets/images/AmnesiaRebirth.jpg");
+    background-position-y: 20%;
+    text-align: right;
+  }
+  &#StrangerThings {
+    background-image: url("/assets/images/StrangerThings.png");
+    background-position-y: center;
+  }
+  &#ShadowOverInnsmouth {
+    background-image: url("/assets/images/InnsmouthUnsplash.jpg");
+    background-position-y: 40%;
+    text-align: right;
+  }
+  transition: all 2s;
+  border-radius: 1em;
+  background-size: cover;
+  max-width: 250px;
+  padding: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  // Nice hack from https://stackoverflow.com/a/24084708
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+.inspiration-link {
+  display: block;
+  font-size: 25px;
+  color: #fff !important;
+  text-decoration: none !important;
+  transition: all 2s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+
