@@ -1,25 +1,27 @@
 <!-- FROM https://github.com/jekyll/minima/ -->
 <!DOCTYPE html>
 
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-  <head>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
+<html lang="{{ page.lang | default: site.lang | default: 'tr' }}">
 
-  {%- include head.html -%}
+<head>
+  <link rel="stylesheet" href="/assets/css/styles.css">
 
-  <body>
+</head>
 
-    {%- include header.html -%}
+{%- include head.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+<body>
 
-    {%- include footer.html -%}
+  {%- include header.html -%}
 
-  </body>
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+
+</body>
 
 </html>
