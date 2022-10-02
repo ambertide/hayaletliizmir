@@ -1,0 +1,67 @@
+---
+title: İçerik Uyarıları
+permalink: /icerik/
+---
+<!-- MODIFIED FROM https://github.com/jekyll/minima/ -->
+
+<!DOCTYPE html>
+
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+{% if site.paginate %}
+{% assign posts = paginator.posts %}
+{% else %}
+{% assign posts = site.posts %}
+{% endif %}
+
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+{%- include head.html -%}
+
+<body>
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <h1 class="Post Title">İçerik Uyarıları</h1>
+      <section>
+        <h2>İçerik Uyarıları Nedir?</h1>
+          <p>Hayaletli İzmir, bir korku antolojisi olarak, okurları rahatsız edebilecek çeşitli temalar ve konular
+            içermektedir. İçerik uyarıları, bu tip konuların hangilerinin hangi hikayede yer aldığını görmek isteyen
+            okurlar için oluşturulmuş bir listedir, listeyi oluştururken her ne kadar olabildiğince detaylı davrandıysam
+            da, lütfen istemeden atlamış olabileceğim konular olabileceğini de aklınızda bulundurun.</p>
+          <p>Aşağıdaki kısımları genişleterek, her bölümün ayrıntılı içerik uyarılarına ulaşabilirsiniz. Lütfen
+            uyarıların
+            da spoiler içerebileceğini unutmayın.</p>
+      </section>
+      <section>
+        <h2>Bölümler</h2>
+        {% for post in posts %}
+        <details>
+          <summary>
+            {{ post.title }}
+          </summary>
+          <ul>
+            {% for content_warning in post.content_warnings %}
+            <li>{{ content_warning }}</li>
+            {% endfor %}
+          </ul>
+        </details>
+        {% endfor %}
+      </section>
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+</body>
+
+</html>

@@ -8,6 +8,26 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, .site-title {
+h1, .site-title, .page-link {
     font-family: 'EB Garamond', serif;
+}
+
+.page-link {
+    font-size: large;
+}
+
+hr.midskip {
+    border: none;
+    color: #bbb;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+    &:after {
+        content: '***';
+    }
 }
