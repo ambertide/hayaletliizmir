@@ -32,8 +32,13 @@ lang: tr
 theme: minima
 
 minima:
-  twitter: hayaletliizmir
   skin: dark
+  social_links:
+    twitter: hayaletliizmir
+    instagram: hayaletliizmir
+    facebook: hayaletliizmir
+    github: eambertide
+  
 
 plugins:
   - jekyll-feed
