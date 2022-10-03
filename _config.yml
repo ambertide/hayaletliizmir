@@ -30,14 +30,16 @@ lang: tr
 
 # Build settings
 theme: minima
+future: true
 
 minima:
+  date_format: "%d/%m/%y"
   skin: dark
   social_links:
     twitter: hayaletliizmir
     instagram: hayaletliizmir
     facebook: hayaletliizmir
-    github: eambertide
+    github: ambertide
   
 
 plugins:

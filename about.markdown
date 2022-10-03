@@ -12,7 +12,7 @@ Birinci kısım, sizi sakin bir sahil kasabası ve turistlerin uğrak yeri
 olan Urla'ya götürecek. Geçmişten gelen korkunç bir tehlike, kasabanın
 üzerine çökerken. Kahramanlarımız, akıl sağlıkları ve belki de hayatlarını
 tehlikeye atacaklar. Terkedilmiş köyler, eski oteller ve kanlı sırlarla
-dolu hikayemiz, 1 Ekim 2022'de sizlerle.
+dolu hikayemiz, Ekim ayı boyunca her hafta yeni bölümüyle sizlerle.
 
 <div class='inspirations-section'>
 
