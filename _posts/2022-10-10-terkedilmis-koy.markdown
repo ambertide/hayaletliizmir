@@ -9,6 +9,7 @@ location: Köyün Yakınları
 pretty_date: "Haziran 15, 2022"
 author: İrem
 cover_image: 2.png
+alt_text: Urla'da bir köyün yakınlarında çekilmiş, gece gökyüzü fotoğrafı.
 content_warnings:
   - Kan
   - Şiddet

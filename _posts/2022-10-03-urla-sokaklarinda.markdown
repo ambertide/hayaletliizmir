@@ -9,6 +9,7 @@ location: Urla
 pretty_date: "Haziran 26, 2020"
 author: İrem
 cover_image: 1.png
+alt_text: Urla'nın ara sokaklarından birinden gece görüntüsü.
 content_warnings:
   - Kan
   - Şiddet
