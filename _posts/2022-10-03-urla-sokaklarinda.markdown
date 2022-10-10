@@ -1,7 +1,7 @@
 ---
 layout: story
 title: "Urla Sokaklarında"
-date: 2022-10-03 03:33:00 +0300
+date: 2022-10-03 23:00:00 +0300
 categories: urla
 x: 38.32241
 y: 26.76227
@@ -9,6 +9,7 @@ location: Urla
 pretty_date: "Haziran 26, 2020"
 author: İrem
 cover_image: 1.png
+alt_text: Urla'nın ara sokaklarından birinden gece görüntüsü.
 content_warnings:
   - Kan
   - Şiddet
@@ -69,7 +70,7 @@ Yalnızlığımın içime işlemesiyle beraber, hisettiğim öfke yerini önce k
 
 Gözlerimdeki yaşları silip kendimi ayağa kalkmaya zorladım, dizimin ağrısına rağmen zorlukla sokaklarda yürümeye başadım, belki de sabaha kadar hayatta kalabilirsem bir kez daha canımı kurtarmam mümkündü. Medeniyete ulaşmaya yönelik bütün çabalarıma karşı sokaklar bomboş durmaya, yollar da tekrarlamaya devam ettiler. Ancak beni asıl dehşete düşüren şey, ayın gökyüzünde hareket etmemesiydi. Zaman adeta durmuştu.
 
-Bir ara dizimdeki yara kanamayı bıraktı. Her ne kadar artık elimle bastırmak zorunda olmadığımdan biraz rahatladıysam da yürümek halen acı veriyordu. Bu şekilde geçen bir kaç saatten sonra, kendimi bir otelin önünde buldum. 
+Bir ara dizimdeki yara kanamayı bıraktı. Her ne kadar artık elimle bastırmak zorunda olmadığımdan biraz rahatladıysam da yürümek halen acı veriyordu. Bu şekilde geçen bir kaç saatten sonra, kendimi bir otelin önünde buldum.
 
 Kapısını itekleyip topallayarak avlusuna girdim otelin. İçerisi, yanan gaz lambaları dışında ince bir toz katmanıyla kaplanmış mobilyalardan oluşuyordu, kimi çürümüş, kiminin üstünde ise örümcek ağları birikmişti. Gene de kendimi sokakların dışında bulmanın sevinciye yanıp tutuşuyordum. Öyle ki resepsiyon masasının arkasında duran yaşlıca adamı ancak öksürdüğünde fark ettim.
 
@@ -81,7 +82,7 @@ Arkamı dönüp adamla yüzyüze geldim, gözlerinin derinlerinde yüzen sinsi b
 
 Resepsiyonist kapının kilidini açmak için hareketlendi, ancak kapının öte yanından gelen sesi duyunca elinde anahtarla kalakaldı, işaret parmağını dudağına götürüp sus işareti yaptı bana gülümseyerek, sonra da kulağını kapıya dayayıp dinlemeye başladı, bir süre sonra gülümsemesi somurtmaya dönüştü, ben ne olduğunu soramadan omuzlarımdan birinden kavradı beni ve kapıya işaret etti, “Dinle” dedi sadece.
 
-Başka çarem olmadığından ve Resepsiyonist ödümü kopardığından, kulağımı kapıya dayayıp dinleme çalıştım. İlk önce sesin ne olduğunu seçemedim, ancak resepsiyonist memnuniyetsizce “Hâlâ sindiriyor.” dediğinde duyduğum sesin şüphe verici biçimde organik bir yapısı olduğunu farkına varabildim. 
+Başka çarem olmadığından ve Resepsiyonist ödümü kopardığından, kulağımı kapıya dayayıp dinleme çalıştım. İlk önce sesin ne olduğunu seçemedim, ancak resepsiyonist memnuniyetsizce “Hâlâ sindiriyor.” dediğinde duyduğum sesin şüphe verici biçimde organik bir yapısı olduğunu farkına varabildim.
 
 Resepsiyonist gene omzumu kavrayıp beni yanına çekti “Erkencisin…” dedi, beraber bir asansöre bindik, titriyordum artık, kendimi bırakmıştım, “Genelde erken gelmezsiniz… Baksana, senden önceki henüz bitmemiş” dedi kahkaha atarak, çürümüş nefesi burnuma vurduğunda içimdeki mide bulantısı doruk noktasına ulaştı, asansörün kapıları ufak bir “ding” sesiyle otelin çatısına açılırken kendimi tutamayıp midemi binanın çatısına boşalttım.
 
