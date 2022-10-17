@@ -8,7 +8,7 @@ y: 26.768203
 location: Urla İskelesi
 pretty_date: "Temmuz 3, 2022"
 author: İrem
-cover_image: 2.png
+cover_image: 3.png
 alt_text: Urla iskelesinden denize bakan bir fotoğraf
 content_warnings:
   - Kan
